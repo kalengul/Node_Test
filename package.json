@@ -1,0 +1,29 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Server node for student",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalengul/Node_Test.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Yurii Titov <kalengul@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalengul/Node_Test/issues"
+  },
+  "homepage": "https://github.com/kalengul/Node_Test#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
